@@ -43,5 +43,5 @@ fetch("https://jsonplaceholder.typicode.com/posts").then(
     let liDOM = document.createElement("li")
     liDOM.innerHTML = item.title
     userListDOM.appendChild(liDOM)
-   });
+   })
 })
