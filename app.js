@@ -19,7 +19,7 @@
 //3.
 fetch("setting.json").then(
     response => response.json()
-).then (responseJson => {
+).then(responseJson => {
     console.log(responseJson)
     console.log(responseJson.userName)
 })
